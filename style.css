@@ -111,13 +111,17 @@ header {
     font-weight: bold;
 }
 
+.lists {
+    display: flex;
+    justify-content: space-between;
+}
+
 .list {
     display: block;
     border-radius: 10px;
     background-color: #8AB3DC;
-    width: 100%;
+    width: 48%;
     padding: 20px 10px;
-    margin: 0 auto;
 }
 
 .list h3 {
@@ -208,17 +212,6 @@ form {
     color: #fff;
 }
 
-.btn:hover {
-    cursor: pointer;
-}
-
-.btn:active {
-    box-shadow: none;
-    position: relative;
-    top: 4px;
-
-}
-
 input {
     display: block;
     width: 100%;
@@ -227,8 +220,6 @@ input {
     margin: 10px 0 20px;
     border: 1px solid #B7B7B7;
 }
-
-
 
 label {
     display: flex;
